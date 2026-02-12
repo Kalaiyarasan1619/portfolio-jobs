@@ -55,12 +55,12 @@ const Experience = () => {
               </h3>
 
               <p className="text-gray-400 text-sm">
-                Align Tectalik | February 2023 - Present
+                Align Tectalik | June 2024 - Present
               </p>
 
               <ul className="list-disc list-inside text-gray-300 space-y-3 mt-4 text-base">
                 <li>Developed scalable full-stack web applications.</li>
-                <li>Worked with React, Spring Boot & PostgreSQL.</li>
+                <li>Worked with React, Vue, Spring Boot & PostgreSQL.</li>
                 <li>Implemented JWT authentication & REST APIs.</li>
                 <li>Improved UI performance & enhanced UX.</li>
               </ul>

@@ -1,5 +1,7 @@
 import React from "react";
-import officeImage from "../assets/images/employeeMaster.png";
+// import officeImage from "../assets/images/employeeMaster.png";
+import officeImage from "../assets/images/projectSchedule.jpeg";
+import timeLog from "../assets/images/projectTimelog.jpeg";
 import clientLocationImage from "../assets/images/clientLocation.png";
 import jewellery from "../assets/images/jewellery.png";
 import MyWorkingStores from "../components/MyWorkingStores";
@@ -46,7 +48,7 @@ const OfficeProjectPage = () => {
               <div className="space-y-8">
                 <div>
                   <h3 className="text-4xl font-bold text-white mb-3">
-                    Employee Management System
+                    Project Schedule Management System
                   </h3>
                   <div className="w-24 h-1 bg-blue-500 rounded"></div>
                 </div>
@@ -56,10 +58,19 @@ const OfficeProjectPage = () => {
                     Description
                   </h4>
                   <p className="text-gray-300 leading-relaxed text-lg">
-                    A full-stack enterprise web application developed for
-                    internal employee management. It handles attendance,
-                    payroll, leave tracking, and authentication with role-based
-                    access control.
+                    Project Schedule Management System is a web-based
+                    application designed to organize and manage employee project
+                    activities on a daily basis. This system helps companies
+                    plan, assign, and monitor project tasks efficiently by
+                    maintaining a structured day-by-day schedule for each
+                    employee. It allows administrators or project managers to
+                    create projects, assign employees, define daily tasks, set
+                    deadlines, and track progress. Employees can view their
+                    assigned schedules, update task status, and manage their
+                    workload effectively. The main objective of this system is
+                    to improve productivity, maintain proper task planning,
+                    reduce confusion, and ensure timely project completion
+                    through clear scheduling and monitoring.
                   </p>
                 </div>
 
@@ -68,10 +79,18 @@ const OfficeProjectPage = () => {
                     Usage
                   </h4>
                   <ul className="list-disc list-inside text-gray-300 space-y-2 text-lg">
-                    <li>Admin can manage employees & departments</li>
-                    <li>Employees can apply leave & track attendance</li>
-                    <li>Secure JWT authentication</li>
-                    <li>Responsive UI with React & Tailwind</li>
+                    <li>Admin can create and manage projects</li>
+                    <li>
+                      Assign employees to specific projects and daily tasks
+                    </li>
+                    <li>Define day-by-day schedules with deadlines</li>
+                    <li>
+                      Employees can view and update their daily task status
+                    </li>
+                    <li>
+                      Track project progress and monitor completion reports
+                    </li>
+                    <li>Secure authentication and role-based access control</li>
                   </ul>
                 </div>
 
@@ -80,7 +99,7 @@ const OfficeProjectPage = () => {
                     Tech Stack
                   </h4>
                   <p className="text-gray-300 text-lg">
-                    React.js • Spring Boot • PostgreSQL • JWT • Tailwind CSS
+                    Vue JS • Elixir • PostgreSQL
                   </p>
                 </div>
               </div>
@@ -109,7 +128,7 @@ const OfficeProjectPage = () => {
               <div className="space-y-8">
                 <div>
                   <h3 className="text-4xl font-bold text-white mb-3">
-                    Client Location Fetching
+                    Project TimeLog
                   </h3>
                   <div className="w-24 h-1 bg-blue-500 rounded"></div>
                 </div>
@@ -119,17 +138,16 @@ const OfficeProjectPage = () => {
                     Description
                   </h4>
                   <p className="text-gray-300 leading-relaxed text-lg">
-                    The system integrates geolocation services to capture
-                    real-time employee latitude and longitude during punch-in
-                    and punch-out. It validates the captured coordinates against
-                    the predefined client location coordinates using distance
-                    calculation logic (Haversine formula / radius-based
-                    validation). If the employee’s location falls within the
-                    permitted geofence radius, attendance is successfully
-                    recorded. Otherwise, the system restricts the action and
-                    logs the attempt. This feature enhances attendance
-                    transparency, reduces fraud, and ensures on-site presence
-                    verification for client-based deployments.
+                    Project Time Log System is a web-based application developed
+                    to record and manage the daily working hours of employees
+                    for assigned projects. This system enables employees to log
+                    the time spent on each task or project on a day-by-day
+                    basis, ensuring accurate tracking of work progress and
+                    productivity. Administrators or project managers can monitor
+                    logged hours, analyze performance, and generate time-based
+                    reports for better project planning and resource management.
+                    The system improves transparency, accountability, and
+                    efficient time utilization within the organization.
                   </p>
                 </div>
 
@@ -138,23 +156,22 @@ const OfficeProjectPage = () => {
                     Usage
                   </h4>
                   <ul className="list-disc list-inside text-gray-300 space-y-2 text-lg">
+                    <li>Admin can create and manage projects</li>
+                    <li>Assign employees to specific projects</li>
                     <li>
-                      Admin can register client locations with latitude &
-                      longitude
+                      Employees can log daily working hours for assigned
+                      projects
                     </li>
+                    <li>Manual time entry with date and task description</li>
                     <li>
-                      Employees can punch in & punch out using real-time GPS
-                      tracking
+                      Track total hours worked per project and per employee
                     </li>
-                    <li>
-                      System validates employee location within allowed geofence
-                      radius
-                    </li>
-                    <li>Prevents remote or proxy attendance attempts</li>
                     <li>
                       Role-based access control with secure JWT authentication
                     </li>
-                    <li>Real-time attendance monitoring dashboard</li>
+                    <li>
+                      Generate time-based reports for monitoring productivity
+                    </li>
                   </ul>
                 </div>
 
@@ -163,7 +180,7 @@ const OfficeProjectPage = () => {
                     Tech Stack
                   </h4>
                   <p className="text-gray-300 text-lg">
-                    React.js • Spring Boot • PostgreSQL • JWT • Tailwind CSS
+                    Vue JS • Elixir • PostgreSQL
                   </p>
                 </div>
               </div>
@@ -171,7 +188,7 @@ const OfficeProjectPage = () => {
               {/* RIGHT SIDE - IMAGE */}
               <div className="flex justify-center">
                 <img
-                  src={clientLocationImage}
+                  src={timeLog}
                   alt="Office Project"
                   className="w-full max-w-lg object-contain
                        drop-shadow-[0_0_70px_rgba(59,130,246,0.6)]
@@ -184,11 +201,9 @@ const OfficeProjectPage = () => {
       </section>
       {/* ----------------------------------------------------------------------------------- */}
 
-      <section className="min-h-screen bg-gradient-to-r from-black via-gray-900 to-black text-white pt-32 pb-20">
+      {/* <section className="min-h-screen bg-gradient-to-r from-black via-gray-900 to-black text-white pt-32 pb-20">
         <div className="max-w-[90%] mx-auto">
-          {/* Heading */}
 
-          {/* BIG WIDE CARD */}
           <div
             className="relative bg-gradient-to-br from-gray-800/70 to-gray-900/90
                         backdrop-blur-2xl rounded-3xl
@@ -196,11 +211,9 @@ const OfficeProjectPage = () => {
                         shadow-[0_0_80px_rgba(59,130,246,0.2)]
                         p-16"
           >
-            {/* Glow */}
             <div className="absolute inset-0 bg-blue-600/10 blur-[140px] rounded-3xl pointer-events-none"></div>
 
             <div className="relative grid lg:grid-cols-2 gap-20 items-center">
-              {/* LEFT IMAGE */}
               <div className="flex justify-center">
                 <img
                   src={jewellery}
@@ -211,7 +224,6 @@ const OfficeProjectPage = () => {
                 />
               </div>
 
-              {/* RIGHT DETAILS */}
               <div className="space-y-8">
                 <div>
                   <h3 className="text-4xl font-bold text-white mb-3">
@@ -298,11 +310,9 @@ const OfficeProjectPage = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
-
-
-  <MyWorkingStores/>
+      {/* <MyWorkingStores/> */}
 
       {/* ----------------------------------------------------------------------------------- */}
     </>

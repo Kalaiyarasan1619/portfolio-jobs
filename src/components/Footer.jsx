@@ -16,13 +16,13 @@ const Footer = () => {
         <h2 className="text-xl md:text-2xl font-semibold tracking-wide">
           <span className="text-gray-400">© 2025</span>{" "}
           <span className="text-blue-500 font-bold">
-            kalaiyarasan@
+            Seenu@creation
           </span>
         </h2>
 
         {/* Small Sub Text */}
         <p className="text-gray-500 mt-3 text-sm">
-          Built with React & Tailwind CSS
+          Built with React 
         </p>
 
       </div>

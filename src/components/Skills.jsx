@@ -21,13 +21,13 @@ const Skills = () => {
     { name: "React JS", icon: <FaReact /> },
     { name: "PostgreSQL", icon: <SiPostgresql /> },
     { name: "Vue JS", icon: <FaVuejs /> },
-    { name: "React Native", icon: <FaReact /> },
+    // { name: "React Native", icon: <FaReact /> },
     { name: "MySQL", icon: <SiMysql /> },
     { name: "HTML", icon: <FaHtml5 /> },
     { name: "CSS", icon: <FaCss3Alt /> },
-    { name: "Tailwind CSS", icon: <SiTailwindcss /> },
-    { name: "Bootstrap", icon: <FaBootstrap /> },
-    { name: "Python", icon: <FaPython /> },
+    // { name: "Tailwind CSS", icon: <SiTailwindcss /> },
+    // { name: "Bootstrap", icon: <FaBootstrap /> },
+    // { name: "Python", icon: <FaPython /> },
     { name: "JavaScript", icon: <SiJavascript /> },
   ];
 

@@ -5,28 +5,28 @@ const Education = () => {
   const educationData = [
     {
       title: "10th Standard",
-      institution: "Anjuham Higher Secondary School",
-      marks: "92%",
-      year: "2016"
+      institution: "Shri Natesan Vidyasala ",
+      marks: "60%",
+      year: "2019"
     },
     {
       title: "12th Standard",
-      institution: "Anjuham Higher Secondary School",
-      marks: "76%",
-      year: "2018"
+      institution: "Shri Natesan Vidyasala ",
+      marks: "71%",
+      year: "2021"
     },
     {
-      title: "B.E - Electrical & Electronics Engineering",
-      institution: "SKR Engineering College (Anna University)",
-      marks: "CGPA: 8.40",
-      year: "2018 - 2022"
+      title: "Computer Application",
+      institution: "Vales Institute of Science and Technology",
+      marks: "CGPA: 7.0",
+      year: "2024"
     },
-    {
-      title: "Java Full Stack Development",
-      institution: "Qspiders",
-      marks: "Certified Course Completion",
-      year: "2023"
-    }
+    // {
+    //   title: "Java Full Stack Development",
+    //   institution: "Qspiders",
+    //   marks: "Certified Course Completion",
+    //   year: "2023"
+    // }
   ];
 
   const [index, setIndex] = useState(0);
