@@ -23,7 +23,7 @@ const Projects = () => {
           </h1>
         </div>
 
-        <div className="grid md:grid-cols-1 gap-20 items-center">
+        <div className="grid md:grid-cols-2 gap-20 items-center">
 
           {/* OFFICE PROJECT */}
           <div className="flex flex-col items-center relative text-center">
@@ -53,12 +53,13 @@ const Projects = () => {
           </div>
 
           {/* SELF PROJECT */}
-          {/* <div className="flex flex-col items-center relative text-center">
+          <div className="flex flex-col items-center relative text-center">
 
             <h3 className="mb-6 text-xl font-semibold uppercase tracking-widest text-gray-300">
               Self Project
             </h3>
 
+            {/* Glow */}
             <div className="absolute w-[450px] h-[450px] bg-blue-600/20 blur-[120px] rounded-full pointer-events-none"></div>
 
             <img
@@ -76,7 +77,7 @@ const Projects = () => {
             >
               Click to View Project
             </button>
-          </div> */}
+          </div>
 
         </div>
 

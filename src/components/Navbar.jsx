@@ -54,9 +54,9 @@ const Navbar = () => {
               Skills
             </a>
           </li>
-          {/* <li>
+          <li>
             <button onClick={() => navigate("/contact")}>Contact me</button>
-          </li> */}
+          </li>
         </ul>
       </div>
     </nav>

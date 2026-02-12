@@ -16,7 +16,7 @@ function App() {
     <Routes>
       <Route path='/' element={<HomePage/>} />
       <Route path='/officeProjectPage' element={<OfficeProjectPage/>} />
-      {/* <Route path='/selfProjectPage' element={<SelfProjectPage/>} /> */}
+      <Route path='/selfProjectPage' element={<SelfProjectPage/>} />
       <Route path='/contact' element={<Contact/>}/>
     </Routes>
     <Footer/>

@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
-// import aboutImg from "../assets/images/AboutImage.png";
-import aboutImg from "../assets/images/seenu.jpeg";
+import aboutImg from "../assets/images/AboutImage.png";
 
 const About = () => {
   const roles = [
@@ -9,7 +8,16 @@ const About = () => {
       description:
         "I build scalable web applications using React, Spring Boot, PostgreSQL and modern UI frameworks. I love solving real-world problems with clean architecture.",
     },
-   
+    {
+      title: "Artist",
+      description:
+        "Creativity drives me. From digital edits to visual storytelling, I bring ideas to life with design, colors, and emotion.",
+    },
+    {
+      title: "Freelancer",
+      description:
+        "I help businesses build websites, portfolios, and custom applications with performance, security, and professional design.",
+    },
   ];
 
   const [index, setIndex] = useState(0);
@@ -31,7 +39,7 @@ const About = () => {
         {/* LEFT SIDE */}
         <div className="space-y-6">
           <h2 className="text-gray-400 uppercase tracking-widest text-sm">
-            Hello, I'm Seenu
+            Hello, I'm
           </h2>
 
           <h1 className="text-5xl md:text-6xl font-extrabold leading-tight">
